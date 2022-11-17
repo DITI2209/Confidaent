@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@300&display=swap');
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #e8cbc0, #636fa4);
+  }
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+
+  #login .login-card {
+    background: white;
+    width: 24rem;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.11);
+    border-radius:2rem;
+  }
+  #login .login-card .card-title {
+    background-color: #312348;
+    padding: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+  #login .login-card .card-title h1 {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  #login .login-card .content {
+    padding: 3rem 2.5rem 5rem;
+  }
+  #login .login-card #email, #login .login-card #password {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 1.75rem;
+    padding: 0.25rem 0;
+    border: none;
+    border-bottom: 1px solid white;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.5s;
+  }
+  #login .login-card #email:hover, #login .login-card #password:hover {
+    border-color: white;
+  }
+  #login .login-card #email:active, #login .login-card #password:active, #login .login-card #email:focus, #login .login-card #password:focus {
+    border-color: #2c3848;
+  }
+  
+  
+  #login .login-card a {
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  #login .login-card .options {
+    margin-bottom: 1.8rem;
+  }
+  #login .login-card button {
+    font-size: 1.2rem;
+    color:white;
+    border-radius: 4rem;
+    display: block ;
+    width: 100%;
+    background: #381c65;
+    border: 2px solid #312348;
+    padding: 0.9rem 0 1.1rem;
+    transition: color 0.5s, border-color 0.5s;
+    font-family: 'Montserrat', sans-serif;
+  }
+  #login .login-card button:hover, #login .login-card button:focus {
+    color: white;
+
+  }
+
+  
+  #login .login-card button:active {
+    transform: translateY(1px);
+  }
+  label {
+    cursor: pointer;
+  }
+  
+  input:focus, select:focus, textarea:focus, button:focus {
+    outline: none;
+  }
+  
